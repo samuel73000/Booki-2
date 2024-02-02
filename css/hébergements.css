@@ -1,134 +1,130 @@
-.container-hebergement-populaire{
-display: flex;
-flex-direction: row;
-gap: 40px;
+.container-hebergement-populaire {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
-.container-hébergement{
-    margin-top: 40px;
-    padding: 30px ;
-    background-color: #F2F2F2;
-    width: 71rem;
-    height: 610px;
-    border-radius: 15px ;
+.container-hébergement {
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #f2f2f2;
+  width: 71rem;
+  height: 610px;
+  border-radius: 15px;
 }
-.title-Hébergements{
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    
+.title-Hébergements {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-.container-icon-hebergement-all{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-
+.container-icon-hebergement-all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
 }
-.container-icon-hebergement{
-    background-color: #FFFFFF;
-    width: 21.3rem;
-    height: 230px;
-    padding: 4px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    gap: 8px;
+.container-icon-hebergement {
+  background-color: #ffffff;
+  width: 21.3rem;
+  height: 230px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 8px;
 }
-.img-icon-hebergement{
-    height: 140px;
-    border-radius: 20px 20px 0px 0px;
+.img-icon-hebergement {
+  height: 140px;
+  border-radius: 20px 20px 0px 0px;
 }
-.container-etoiles{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 15px 0px 15px;
-    gap: 8px;
+.container-etoiles {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 0px 15px;
+  gap: 8px;
 }
-.title-icon-hebergment{
-font-size: 16px;
-font-weight: 700;
+.title-icon-hebergment {
+  font-size: 16px;
+  font-weight: 700;
 }
-.texte-icon-hebergement{
-    font-size: 14px;
-    font-weight: 600;
+.texte-icon-hebergement {
+  font-size: 14px;
+  font-weight: 600;
 }
 .etoile::before {
-    content: "\f005\f005\f005\f005";
-    font-family: "fontAwesome";
-    color: blue;
-  }
-  .etoile::after {
-    content: "\f005";
-    font-family: "FontAwesome";
-    color: #f2f2f2;
-  }
-  .texte-hebergement{
-margin-top: 30px;
-font-size: 18px;
-font-weight: 700;
-  }
+  content: "\f005\f005\f005\f005";
+  font-family: "fontAwesome";
+  color: blue;
+}
+.etoile::after {
+  content: "\f005";
+  font-family: "FontAwesome";
+  color: #f2f2f2;
+}
+.texte-hebergement {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
 
-  /* populaire */
+/* populaire */
 
-  .container-pupolaire{
-    margin-top: 40px;
-    background-color: #F2F2F2;
-    width: 32rem;
-    height: 610px;
-    padding: 30px ;
-    border-radius: 15px ;
-  }
-  .container-title-populaire{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 40px;
-  }
-  .font-populaire{
-    color: #0065FC;
-  }
-  .container-icon-populaire{
-    padding: 4px;
-margin-top: 30px;
-    background-color: white ;
-    width: 32rem;
-    height: 150px ;
-    border-radius: 20px;
-    display: flex;
-    flex-wrap: wrap;
-
-  }
-  .img-populaire{
-    width: 8rem;
-    height: 150px;
-    border-radius: 20px 0px 0px 20px;
-  }
-  .container-icon-title-populaire{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 5px 5px 15px;
-    gap: 10px;
-  }
-  .title-icon-populaire{
-   font-size: 16px;
-   font-weight: 700;
-  }
-  .texte-icon-populaire{
-font-size: 14px;
-font-weight: 400;
-  }
-  .etoile-populaire{
-    margin-top: 60px;
-  }
-  .etoile-populaire::before {
-    content: "\f005\f005\f005\f005";
-    font-family: "fontAwesome";
-    color: blue;
-    
-  }
-  .etoile-populaire::after {
-    content: "\f005";
-    font-family: "FontAwesome";
-    color: #f2f2f2;
-  }
+.container-pupolaire {
+  margin-top: 40px;
+  background-color: #f2f2f2;
+  width: 32rem;
+  height: 610px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.container-title-populaire {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.font-populaire {
+  color: #0065fc;
+}
+.container-icon-populaire {
+  padding: 4px;
+  margin-top: 30px;
+  background-color: white;
+  width: 32rem;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-populaire {
+  width: 8rem;
+  height: 150px;
+  border-radius: 20px 0px 0px 20px;
+}
+.container-icon-title-populaire {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px 5px 15px;
+  gap: 10px;
+}
+.title-icon-populaire {
+  font-size: 16px;
+  font-weight: 700;
+}
+.texte-icon-populaire {
+  font-size: 14px;
+  font-weight: 400;
+}
+.etoile-populaire {
+  margin-top: 60px;
+}
+.etoile-populaire::before {
+  content: "\f005\f005\f005\f005";
+  font-family: "fontAwesome";
+  color: blue;
+}
+.etoile-populaire::after {
+  content: "\f005";
+  font-family: "FontAwesome";
+  color: #f2f2f2;
+}

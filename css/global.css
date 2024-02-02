@@ -1,12 +1,12 @@
 @import url(/css/header.css);
 @import url(/css/info.css);
 @import url(/css/hébergements.css);
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Raleway", sans-serif;
-    object-fit: cover;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  object-fit: cover;
 }
-body{
-    padding: 0 50px 0 50px;
+body {
+  padding: 0 50px 0 50px;
 }
