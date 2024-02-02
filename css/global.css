@@ -1,0 +1,11 @@
+@import url(/css/header.css);
+@import url(/css/info.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    
+}
+body{
+    padding: 0 50px 0 50px;
+}
