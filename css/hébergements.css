@@ -1,0 +1,66 @@
+.container-hebergement-populaire{
+
+}
+.container-hébergement{
+    margin-top: 40px;
+    padding: 30px ;
+    background-color: #F2F2F2;
+    width: 55rem;
+    height: 550px;
+    border-radius: 15px ;
+}
+.title-Hébergements{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+.container-icon-hebergement-all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.container-icon-hebergement{
+    background-color: #FFFFFF;
+    width: 16.5rem;
+    height: 210px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 7px;
+}
+.img-icon-hebergement{
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container-etoiles{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 0px 15px;
+    gap: 8px;
+}
+.title-icon-hebergment{
+font-size: 16px;
+font-weight: 700;
+}
+.texte-icon-hebergement{
+    font-size: 14px;
+    font-weight: 600;
+}
+.etoile::before {
+    content: "\f005\f005\f005\f005";
+    font-family: "fontAwesome";
+    color: blue;
+  }
+  .etoile::after {
+    content: "\f005";
+    font-family: "FontAwesome";
+    color: #f2f2f2;
+  }
+  .texte-hebergement{
+margin-top: 30px;
+font-size: 18px;
+font-weight: 700;
+  }
