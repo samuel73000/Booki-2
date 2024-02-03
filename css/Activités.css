@@ -1,0 +1,31 @@
+.container-activités{
+    margin-top: 20px;
+    padding: 25px;
+}
+.title-activités{
+   font-size: 1.5rem;
+   font-weight: 700;
+   margin-bottom: 40px;
+}
+.container-card-activités{
+    display: flex;
+    gap: 2.1rem;
+
+}
+
+.img-activités{
+    width: 22rem;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container-text-activités{
+    padding: 20px 19px 20px 19px;
+    border-radius:0px 0px 20px 20px ;
+    margin-top: -4px;
+    border: 1px solid rgb(217, 217, 217);
+    border-top: 0px;
+}
+.text-activités{
+    font-weight: 700;
+    font-size: 1rem;
+}

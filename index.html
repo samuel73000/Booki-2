@@ -16,14 +16,16 @@
       crossorigin="anonymous"
     ></script>
   </head>
+  <!-- header -->
   <header class="header">
     <img src="/images/logo/Booki.png" class="logo" alt="logo" />
-    <div class="container-lien-header">
+    <nav class="container-lien-header">
       <a href="#" class="lien-header">Hébergements</a>
       <a href="#" class="lien-header">Activités</a>
-    </div>
+    </nav>
   </header>
   <body>
+    <!-- info / recherche -->
     <section class="container-info">
       <div>
         <h1 class="title-info">
@@ -66,11 +68,12 @@
         </p>
       </div>
     </section>
-    <section class="container-hebergement-populaire">
+    <!-- hébergement -->
+    <main class="container-hebergement-populaire">
       <div class="container-hébergement">
         <h2 class="title-Hébergements">Hébergements à Marseille</h2>
         <div class="container-icon-hebergement-all">
-          <div class="container-icon-hebergement">
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/fred-kleber.jpg"
               alt="image logements"
@@ -82,8 +85,8 @@
 
               <figure class="etoile"></figure>
             </div>
-          </div>
-          <div class="container-icon-hebergement">
+          </article>
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/febrian-zakaria.jpg"
               alt="image logements"
@@ -95,8 +98,8 @@
 
               <figure class="etoile"></figure>
             </div>
-          </div>
-          <div class="container-icon-hebergement">
+          </article>
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/reisetopia.jpg"
               alt="image logements"
@@ -108,8 +111,8 @@
 
               <figure class="etoile"></figure>
             </div>
-          </div>
-          <div class="container-icon-hebergement">
+          </article>
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/annie-spratt.jpg"
               alt="image logements"
@@ -121,8 +124,8 @@
 
               <figure class="etoile"></figure>
             </div>
-          </div>
-          <div class="container-icon-hebergement">
+          </article>
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/marcus-loke.jpg"
               alt="image logements"
@@ -133,8 +136,8 @@
               <p class="texte-icon-hebergement">Nuit à partir de 25€</p>
               <figure class="etoile"></figure>
             </div>
-          </div>
-          <div class="container-icon-hebergement">
+          </article>
+          <article class="container-icon-hebergement">
             <img
               src="./images/hebergements/nicate-lee.jpg"
               alt="image logements"
@@ -145,17 +148,17 @@
               <p class="texte-icon-hebergement">Nuit à partir de 23€</p>
               <figure class="etoile"></figure>
             </div>
-          </div>
+          </article>
         </div>
         <p class="texte-hebergement">Afficher plus</p>
       </div>
-
+<!-- populaire -->
       <div class="container-pupolaire">
         <div class="container-title-populaire">
           <h3>Les plus populaires</h3>
           <i class="fa-solid fa-chart-line font-populaire"></i>
         </div>
-        <div class="container-icon-populaire">
+        <article class="container-icon-populaire">
           <img
             src="./images/hebergements/emile-guillemot.jpg"
             alt="photo des plus populaires"
@@ -166,8 +169,8 @@
             <p class="texte-icon-populaire">Nuit à partir de 25€</p>
             <figure class="etoile-populaire"></figure>
           </div>
-        </div>
-        <div class="container-icon-populaire">
+        </article>
+        <article class="container-icon-populaire">
           <img
             src="./images/hebergements/aw-creative.jpg"
             alt="photo des plus populaires"
@@ -180,8 +183,8 @@
             <p class="texte-icon-populaire">Nuit à partir de 71€</p>
             <figure class="etoile-populaire"></figure>
           </div>
-        </div>
-        <div class="container-icon-populaire">
+        </article>
+        <article class="container-icon-populaire">
           <img
             src="./images/hebergements/febrian-zakaria2.jpg"
             alt="photo des plus populaires"
@@ -192,9 +195,58 @@
             <p class="texte-icon-populaire">Nuit à partir de 68€</p>
             <figure class="etoile-populaire"></figure>
           </div>
-        </div>
+        </article>
       </div>
+    </main>
+    <!-- activités -->
+    <section class="container-activités">
+<h2 class="title-activités">Activités à Marseille</h2>
+<div class="container-card-activités">
+<article >
+  <img src="./images/activites/reno-laithienne.jpg" alt="photo d'activités" class="img-activités">
+  <div class="container-text-activités">
+  <p class="text-activités">Vieux-Port</p>
+</div>
+    </article>
+<article>
+  <img src="./images/activites/paul-hermann.jpg" alt="photo d'activités" class="img-activités">
+  <div class="container-text-activités">
+  <p class="text-activités">Fort de Pomègues</p>
+</div>
+</article>
+<article>
+  <img src="./images/activites/kilyan-sockalingum.jpg" alt="photo d'activités" class="img-activités">
+  <div class="container-text-activités">
+  <p class="text-activités">Parc national des Calanques</p>
+</div>
+</article>
+<article>
+  <img src="./images/activites/florian-wehde.jpg" alt="photo d'activités" class="img-activités">
+  <div class="container-text-activités">
+  <p class="text-activités">Notre-Dame-de-la-Garde</p>
+</div>
+</article>
+</div>
     </section>
   </body>
-  <footer></footer>
+  <footer>
+    <section class="container-footer">
+      <div class="container-card-footer">
+        <h3 class="title-footer">À propos</h3>
+        <p class="text-footer">Fonctionnement du site</p>
+        <p class="text-footer">Conditions générales </p>
+        <p class="text-footer">Données et confidentialité</p>
+      </div>
+      <div class="container-card-footer">
+        <h3 class="title-footer">Nos hébergements</h3>
+        <p class="text-footer">Charte qualité</p>
+        <p class="text-footer">Proposer votre hôtel</p>
+      </div>
+      <div class="container-card-footer">
+        <h3 class="title-footer">Assistance</h3>
+        <p class="text-footer">Centre d’aide</p>
+        <p class="text-footer">Nous contacter</p>
+      </div>
+    </section>
+  </footer>
 </html>

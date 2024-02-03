@@ -1,0 +1,20 @@
+.container-footer{
+    background-color: #F2F2F2;
+    display: flex;
+    margin-top: 20px;
+}
+.container-card-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin-right: 22rem;
+}
+.title-footer{
+  font-weight: 700;
+  font-size: 18px;  
+}
+.text-footer{
+    font-weight: 400;
+    font-size: 16px;
+}
