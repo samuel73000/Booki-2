@@ -16,8 +16,9 @@
   color: black;
   padding-top: 22px;
   font-size: 16px;
+  border-top: 2px solid white;
 }
 .lien-header:hover {
-  border-top: 2px solid #0065fc;
+  border-color: #0065fc;
   color: #0065fc;
 }

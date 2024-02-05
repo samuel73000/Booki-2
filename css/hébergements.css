@@ -67,6 +67,9 @@
   font-size: 18px;
   font-weight: 700;
 }
+.texte-hebergement:hover{
+text-decoration: underline;
+}
 
 /* populaire */
 
