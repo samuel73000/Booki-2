@@ -135,3 +135,7 @@ text-decoration: underline;
   font-family: "FontAwesome";
   color: #f2f2f2;
 }
+
+@media only screen and (max-width : 1023px )  {}
+
+@media only screen and (max-width : 768px )  {}

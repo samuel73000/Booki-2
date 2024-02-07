@@ -14,3 +14,6 @@ body {
   max-width: 1440px;
   padding: 0 12% 0 12%;
 }
+@media only screen and (max-width : 1023px )  {}
+
+@media only screen and (max-width : 768px )  {}

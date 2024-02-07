@@ -93,3 +93,7 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+@media only screen and (max-width : 1023px )  {}
+
+@media only screen and (max-width : 768px )  {}
