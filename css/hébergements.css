@@ -9,13 +9,12 @@
   background-color: #f2f2f2;
   /* width: 65%; */
   width: 60vw;
-  height: 610px;
   border-radius: 15px;
 }
 .title-Hébergements {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .container-icon-hebergement-all {
   display: flex;
@@ -24,7 +23,7 @@
   gap: 1vw;
   row-gap: 1vw;
 }
-.test{
+.container-icon-hebergement-flex{
   display: flex;
   flex-direction: row;
   flex: 1;
@@ -38,6 +37,7 @@
   flex-direction: column;
   border-radius: 20px;
   gap: 30px;
+ width: 150px;
 }
 .img-icon-hebergement {
   height: 140px;
@@ -86,7 +86,6 @@ text-decoration: underline;
   margin-top: 40px;
   background-color: #f2f2f2;
   width: 30%;
-  height: 610px;
   padding: 30px;
   border-radius: 15px;
 }
@@ -94,24 +93,27 @@ text-decoration: underline;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+.title-populaire{
+  font-size: 22px;
 }
 .font-populaire {
   color: var(--main-color);
+  font-size: 22px;
 }
 .container-icon-populaire {
   padding: 5px;
   margin-top: 30px;
   background-color: white;
-  width: 100%;
   border-radius: 20px;
   display: flex;
+  flex: 1;
   flex-wrap: wrap;
 }
 .img-populaire {
-  width: 6.5vw;
+  width: 35%;
   height: 150px;
   border-radius: 20px 0px 0px 20px;
 }
@@ -123,11 +125,11 @@ text-decoration: underline;
   width: 48%;
 }
 .title-icon-populaire {
-  font-size: 0.9vw;
+  font-size: 16px;
   font-weight: 700;
 }
 .texte-icon-populaire {
-  font-size: 0.8vw;
+  font-size: 14px;
   font-weight: 400;
 }
 .etoile-populaire {
