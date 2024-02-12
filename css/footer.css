@@ -2,13 +2,13 @@
     background-color: #F2F2F2;
     display: flex;
     margin-top: 20px;
-    justify-content: space-around;
 }
 .container-card-footer{
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
+    flex: 1;
 }
 .title-footer{
   font-weight: 700;

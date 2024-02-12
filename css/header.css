@@ -19,8 +19,8 @@
   border-top: 2px solid white;
 }
 .lien-header:hover {
-  border-color: #0065fc;
-  color: #0065fc;
+  border-color: var(--main-color);
+  color: var(--main-color);
 }
 @media only screen and (max-width : 1023px )  {}
 
