@@ -29,6 +29,39 @@
     font-weight: 700;
     font-size: 16px;
 }
-@media only screen and (max-width : 1024px )  {}
-
+/* version tablettes */
+@media only screen and (max-width : 1024px )  {
+    .container-activités{
+        margin-top: 20px;
+        padding: 25px;
+    }
+    .title-activités{
+        font-size: 22px;
+       font-weight: 700;
+       margin-bottom: 40px;
+    }
+    .container-card-activités-all{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .img-activités{
+        width: 16.5vw;
+        height: 380px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .container-text-activités{
+        width:16.5vw;
+        border-radius:0px 0px 20px 20px ;
+        margin-top: -4px;
+        box-shadow: 0px 3px 15px 0px #0000001A;    
+    }
+    .text-activités{
+        padding: 20px 19px 20px 19px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+/* version téléphones */
 @media only screen and (max-width : 768px )  {}
