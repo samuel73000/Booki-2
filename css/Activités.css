@@ -31,6 +31,9 @@
 }
 /* version tablettes */
 @media only screen and (max-width : 1024px )  { 
+    .container-activités{
+        margin-top: 35px;
+    }
     .img-activités{
         width: 19.7vw;
         height: 200px;

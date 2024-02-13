@@ -22,8 +22,6 @@
   border-color: var(--main-color);
   color: var(--main-color);
 }
-@media only screen and (max-width : 1024px )  {
-  
-}
 
+/* version téléphones */
 @media only screen and (max-width : 768px )  {}
