@@ -95,12 +95,8 @@
   font-weight: 400;
 }
 
-
-
-
 /* version tablettes  */
-@media only screen and (max-width : 1024px )  {
-  
+@media only screen and (max-width: 1024px) {
   .container-filtres {
     margin-top: 30px;
     display: flex;
@@ -117,7 +113,8 @@
     font-size: 16px;
   }
 }
- 
+
 /* version téléphones */
 
-@media only screen and (max-width : 768px )  {}
+@media only screen and (max-width: 768px) {
+}

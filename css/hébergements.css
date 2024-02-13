@@ -148,6 +148,166 @@ text-decoration: underline;
   font-size: 15px;
 }
 
-@media only screen and (max-width : 1024px )  {}
 
+
+
+
+
+
+
+
+
+/* version tablettes */
+@media only screen and (max-width : 1024px )  {
+  .container-hebergement-populaire {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .container-hébergement {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #f2f2f2;
+    /* width: 65%; */
+    width: 60vw;
+    border-radius: 15px;
+  }
+  .title-Hébergements {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .container-icon-hebergement-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+    row-gap: 1vw;
+  }
+  .container-icon-hebergement-flex{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 30px;
+  }
+  .container-icon-hebergement {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 30px;
+   width: 150px;
+  }
+  .img-icon-hebergement {
+    height: 140px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .container-etoiles {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px 10px 15px;
+    gap: 8px;
+    margin-top: -20px;
+    
+  }
+  .title-icon-hebergment {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .texte-icon-hebergement {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .etoile::before {
+    content: "\f005\f005\f005\f005";
+    font-family: "fontAwesome";
+    color: var(--main-color);
+    font-size: 15px;
+  }
+  .etoile::after {
+    content: "\f005";
+    font-family: "FontAwesome";
+    color: #f2f2f2;
+    font-size: 15px;
+  }
+  .texte-hebergement {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .texte-hebergement:hover{
+  text-decoration: underline;
+  }
+  
+  /* populaire */
+  
+  .container-pupolaire {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    width: 30%;
+    padding: 30px;
+    border-radius: 15px;
+  }
+  .container-title-populaire {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .title-populaire{
+    font-size: 22px;
+  }
+  .font-populaire {
+    color: var(--main-color);
+    font-size: 22px;
+  }
+  .container-icon-populaire {
+    padding: 5px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .img-populaire {
+    width: 35%;
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .container-icon-title-populaire {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 5px 15px;
+    gap: 10px;
+    width: 48%;
+  }
+  .title-icon-populaire {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .texte-icon-populaire {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .etoile-populaire {
+    margin-top: auto;
+  }
+  .etoile-populaire::before {
+    content: "\f005\f005\f005\f005";
+    font-family: "fontAwesome";
+    color: var(--main-color);
+    font-size: 15px;
+  }
+  .etoile-populaire::after {
+    content: "\f005";
+    font-family: "FontAwesome";
+    color: #f2f2f2;
+    font-size: 15px;
+  }
+}
+/*  version téléphones */
 @media only screen and (max-width : 768px )  {}
