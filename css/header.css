@@ -22,6 +22,8 @@
   border-color: var(--main-color);
   color: var(--main-color);
 }
-@media only screen and (max-width : 1023px )  {}
+@media only screen and (max-width : 1024px )  {
+  
+}
 
 @media only screen and (max-width : 768px )  {}
