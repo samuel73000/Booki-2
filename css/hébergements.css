@@ -184,6 +184,9 @@
     padding: 10px 30px 30px 30px;
     gap: 20px;
   }
+  .container-icon-title-populaire {
+    width: 54.2%;
+  }
   .container-title-populaire {
     width: 100%;
   }
@@ -249,7 +252,7 @@
     gap: 35px;
   }
   .container-title-populaire {
-    width: 80%;
+    width: auto;
   }
 
   .container-icon-populaire {
