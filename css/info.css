@@ -117,4 +117,7 @@
 /* version téléphones */
 
 @media only screen and (max-width: 768px) {
+  .container-info {
+    
+  }
 }
