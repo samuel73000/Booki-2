@@ -151,20 +151,37 @@
   .container-hebergement-populaire {
     flex-direction: column;
   }
-
+.title-Hébergements{
+  padding: 30px 30px 0px 30px;
+}
+  .container-icon-hebergement-all{
+    padding: 0px 30px 0px 30px;
+  }
   .container-hébergement {
-    width: 86vw;
+    width: 100%;
+    padding: 0;
+  }
+  .texte-hebergement{
+    padding: 0px 30px 30px 30px;
   }
   /* populaire */
 
   .container-pupolaire {
-    width: 86vw;
+   width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 0px;
+    padding: 0;
   }
-
+  .container-title-populaire{
+    padding: 30px 30px 0px 30px;
+  }
+.container-title-populaire-all{
+  display: flex;
+  padding: 10px 30px 30px 30px;
+  gap: 20px;
+}
   .container-title-populaire {
     width: 100%;
   }
