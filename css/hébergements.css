@@ -204,6 +204,7 @@
   }
   .container-icon-hebergement-flex {
     flex-direction: column;
+
     margin-top: 20px;
     gap: 30px;
   }
@@ -213,6 +214,7 @@
   }
   .container-icon-hebergement-all {
     padding: 0px 20px 0px 20px;
+    flex-direction: column;
   }
   .container-icon-hebergement {
     width: auto;
