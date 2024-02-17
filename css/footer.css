@@ -1,28 +1,33 @@
-.container-footer{
-    background-color: #F2F2F2;
-    display: flex;
-    margin-top: 20px;
+.container-footer {
+  background-color: #f2f2f2;
+  display: flex;
+  margin-top: 20px;
 }
-.container-card-footer{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-    flex: 1;
+.container-card-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  flex: 1;
 }
-.title-footer{
+.title-footer {
   font-weight: 700;
-  font-size: 18px;  
+  font-size: 18px;
 }
-.text-footer{
-    font-weight: 400;
-    font-size: 16px;
-    width: 190px;
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  width: 190px;
 }
-@media only screen and (max-width : 1024px )  {}
 
-@media only screen and (max-width : 768px )  {
-    .container-footer{
-        display: none;
-    }
+/* version téléphones */
+
+@media only screen and (max-width: 768px) {
+  .container-footer {
+    flex-direction: column;
+  }
+  .container-card-footer {
+    gap: 15px;
+    padding: 30px;
+  }
 }
