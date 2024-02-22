@@ -56,7 +56,7 @@
 }
 .texte-icon-hebergement {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
 }
 .etoile::before {
   content: "\f005\f005\f005\f005";
